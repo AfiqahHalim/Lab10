@@ -17,8 +17,11 @@
 <a href="dateServlet?param=-1">Display Yesterday's Date</a> &nbsp; &nbsp;
 <a href="dateServlet?param=0">Display Today's Date</a> &nbsp; &nbsp;
 <a href="dateServlet?param=1">Display Tommorow's Date</a>
+
 <br><br>
 <a href="demo/orderForm.html">Order Product</a>
+<br>
+<a href="demo/orderRedirectForm.html">Order Product (Redirect)</a>
 
 </body>
 </html>

@@ -6,13 +6,14 @@
 </head>
 <body>
 
-<h3>Order Product </h3>
+<h3>Order Product (Demonstration of Redirect)</h3>
 
 Select one of the item and specify the amount of item.<br>
-Click SUBMIT to get the total amount and service tax that will be charged on you.<br> 
+Click <b>Add More Order</b> to order more product. <br>
+Click <b>Check Out Order</b> to calculate the total amount of order.<br>
 <hr>
 
-<form action="orderServlet" method="post">
+<form action="orderRedirectServlet" method="post">
 
 Product : <br><br>
 <input type="radio" name="product" value="101">
@@ -28,7 +29,10 @@ Chicken McNuggets 6pcs Meal - RM 13.20<br><br>
 
 Quantity : <input type="text" name="quantity"><br><br>
 
-<input type="submit" value="Get total and tax">
+<input type="submit" value="Add More Order">
+
+<a href="checkOutRedirectServlet">Check Out Order</a>
+
 </form>
 
 </body>
